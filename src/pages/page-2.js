@@ -1,17 +1,29 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import Navbar from "../components/navigation/navbar"
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-import LogoIcon from "../components/navigation/logoicon"
-import Hamburger from "../components/navigation/hamburger"
 
 const SecondPage = () => (
-  <Navbar>
+  /*<Navbar>
     <LogoIcon></LogoIcon>
     <Hamburger></Hamburger>
-  </Navbar>
+    <Nav>
+      <MenuDropdown>
+        <MenuDropdownItem
+          MenuLink="/Websites"
+          MenuLinkTitle="Websites"
+          MenuLinkDesc="Description Here.."
+          MenuLinkIcon="/icon.svg"
+        ></MenuDropdownItem>
+        <DropdownItem
+          MenuLink="/Websites"
+          MenuLinkTitle="Websites"
+          MenuLinkDesc="Description Here.."
+          MenuLinkIcon="/icon.svg"
+        ></DropdownItem>
+      </MenuDropdown>
+      <NavItem>
+    </Nav>
+  </Navbar> */
+  <div>hi</div>
 )
 
 export default SecondPage

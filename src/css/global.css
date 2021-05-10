@@ -1,4 +1,7 @@
-@import "../css/typography.css";
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/Rubik.ttf");
+}
 
 :root {
   --gray-background: #8e9089;
@@ -23,8 +26,10 @@ html {
   font-size: 100%;
 }
 
+ul,
 li {
   margin: 0;
+  list-style: none;
 }
 
 body {
