@@ -1,16 +1,17 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import Navbar from "../components/navigation/navbar"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import LogoIcon from "../components/navigation/logoicon"
+import Hamburger from "../components/navigation/hamburger"
 
 const SecondPage = () => (
-  <Layout>
-    <Seo title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
-  </Layout>
+  <Navbar>
+    <LogoIcon></LogoIcon>
+    <Hamburger></Hamburger>
+  </Navbar>
 )
 
 export default SecondPage
